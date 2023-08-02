@@ -15,8 +15,8 @@ html {
 body {
     background: #111;
     overflow-x: hidden;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
     max-width: 100%;
 }
 
@@ -146,7 +146,7 @@ main .section-works a {
 }
 
 main .section-works .div-works {
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -171,11 +171,13 @@ main .section-works .div-works-text {
 }
 
 main .section-works .div-works-text h4 {
+    text-align: center;
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
 main .section-works .div-works-text h5 {
+    text-align: center;
     font-size: 1.8rem;
     background-color: #CFB53B;
     color: #111;

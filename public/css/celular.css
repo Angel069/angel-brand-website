@@ -1,6 +1,6 @@
 @media screen and (min-width: 375px) and (max-width: 767px) {
     body {
-        padding: 0;
+        padding: 0 1rem;
     }
 
     main .section-homepage {
@@ -10,6 +10,10 @@
     
     main .section-homepage h1 {
         font-size: 10rem;
+    }
+
+    main .section-homepage .div-buttons button {
+        font-size: 1.2rem;
     }
     
     main .section-expertise {
@@ -52,6 +56,7 @@
         padding: 4rem;
         padding-top: 12rem;
         padding-bottom: 12rem;
+        gap: 6rem;
     }
     
     main .section-meetme {
@@ -107,7 +112,7 @@
 
 @media screen and (max-width: 375px) {
     body {
-        padding: 0;
+        padding: 0 .5rem;
     }
 
     body::before {
@@ -122,6 +127,10 @@
     main .section-homepage h1 {
         font-size: 6rem;
     }
+
+    main .section-homepage .div-buttons button {
+        font-size: 1rem;
+    }
     
     main .section-expertise {
         height: 100%;
@@ -132,7 +141,7 @@
     }
     
     main .section-expertise h2 {
-        font-size: 6rem;
+        font-size: 5rem;
         text-align: center;
     }
     
@@ -177,7 +186,7 @@
     }
     
     main .section-meetme h2 {
-        font-size: 6rem;
+        font-size: 5rem;
         text-align: center;
     }
     
@@ -194,7 +203,7 @@
     }
     
     main .section-contact h2 {
-        font-size: 6rem;
+        font-size: 5rem;
         text-align: center;
     }
     
