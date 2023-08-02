@@ -296,7 +296,7 @@ footer .div-icons svg:hover {
     cursor: pointer;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
 
     body::before {
         font-size: 8em;
