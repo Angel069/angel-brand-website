@@ -4,6 +4,7 @@
     }
 
     main .section-homepage {
+        height: 95vh;
         padding-left: 2rem;
         padding-right: 2rem;
     }
