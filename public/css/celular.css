@@ -15,6 +15,10 @@
     main .section-homepage .div-buttons button {
         font-size: 1.2rem;
     }
+
+    main .section-homepage .div-desliza {
+        bottom: 5rem;
+    }
     
     main .section-expertise {
         height: 100%;
@@ -130,6 +134,15 @@
 
     main .section-homepage .div-buttons button {
         font-size: 1rem;
+    }
+
+    main .section-homepage .div-desliza {
+        bottom: 2rem;
+    }
+    
+    main .section-homepage .div-desliza span {
+        font-size: 1.2rem;
+        color: #CFB53B;
     }
     
     main .section-expertise {
