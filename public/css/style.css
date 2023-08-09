@@ -82,7 +82,7 @@ main .section-homepage .div-desliza {
     align-items: center;
     justify-content: end;
     position: absolute;
-    bottom: 8rem;
+    bottom: 4rem;
     animation: bounce 1.8s infinite;
 }
 
@@ -163,6 +163,8 @@ main .section-works {
     align-items: center;
     justify-content: center;
     padding: 20rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
     gap: 2rem;
 }
 
