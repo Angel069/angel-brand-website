@@ -1,25 +1,48 @@
-AOS.init();
+(function () {
+    var hamburgerMenu = document.querySelector('.hamburger-menu');
+    var bars = document.querySelectorAll('.bar');
+  
+    hamburgerMenu.addEventListener('click', function() {
+        bars.forEach(function(bar) {
+            bar.classList.toggle('animate');
+        });
 
-AOS.init ({
-    duration: 1500,
-})
+        const sectionMenu = document.querySelector('.section-menu');
+        const body = document.body;
+    
+        if (hamburgerMenu.classList.contains('active')) {
+            hamburgerMenu.classList.remove('active');
+            sectionMenu.classList.add('inactive');
+            body.classList.remove('body-overflow-hidden');
 
-window.onload = function () {
-    lax.init()
+            setTimeout(function() {
+                sectionMenu.classList.remove('active', 'inactive');
+            }, 500); // Esperar a que termine la animación antes de ocultar definitivamente
+        } else {
+            hamburgerMenu.classList.add('active');
+            sectionMenu.classList.add('active');
+            body.classList.add('body-overflow-hidden');
+        }
+    });
 
-    // Add a driver that we use to control our animations
-    lax.addDriver('scrollY', function () {
-      return window.scrollY
-    })
+    // Agregar manejadores de eventos para los elementos dentro de section-menu
+    const sectionMenuItems = document.querySelectorAll('.section-menu ul li a');
+    sectionMenuItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            bars.forEach(function(bar) {
+                bar.classList.remove('animate');
+            });
 
-    // Add animation bindings to elements
-    lax.addElements('.selector', {
-      scrollY: {
-        translateX: [
-          ["elInY", "elCenterY", "elOutY"],
-          [0, 'screenWidth/2', 'screenWidth'],
-        ]
-      }
-    })
-  }
+            hamburgerMenu.classList.remove('active');
+            const sectionMenu = document.querySelector('.section-menu');
+            sectionMenu.classList.add('inactive');
+            const body = document.body;
+            body.classList.remove('body-overflow-hidden');
+
+            setTimeout(function() {
+                sectionMenu.classList.remove('active', 'inactive');
+            }, 500); // Esperar a que termine la animación antes de ocultar definitivamente
+        });
+    });
+})();
 

@@ -1,0 +1,47 @@
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    
+    header {
+        padding: 8rem;
+    }
+
+    main section {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    main .section-offer .cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 4rem;
+    }
+
+    main .section-dream {
+        padding-top: 4rem;
+    }
+
+    main .section-dream img {
+        width: 60%;
+    }
+
+    main .section-dream h2 {
+        width: 100%;
+    }
+    
+    main .section-dream p {
+        width: 100%;
+    }
+
+    footer .footer {
+        padding: 8rem;
+    }
+
+
+    /*ESTILOS PARA PRECIOS.HTML*/
+
+    main .section-cards-prices {
+        gap: 2rem;
+    }
+
+  }
+  

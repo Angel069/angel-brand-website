@@ -3,145 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crea tu sitio web | Angel Brand</title>
+    <link rel="shortcut icon" href="resources/ab-logo.png" type="image/x-icon">
+    <title>Angel Brand Solutions</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/celular.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/tablet.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/laptop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Spline+Sans+Mono&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="resources/a.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-proxima-nova@1.0.1/style.min.css" rel="stylesheet">
 </head>
-<body>
-    <main> 
-
-        <section class="section-homepage">
-            <h1 class="lax lax_preset_fadeInOut:244.25:0 lax_preset_hueRotate:977:360 lax_preset_jiggle:50:20" data-aos="zoom-in">Tu Sitio Web,<br> Mi Mágia</h1>
-            <div class="div-buttons" data-aos="fade-up">
-                <a href="https://portfoliobyangel.com" target="_blank"><button class="lax lax_preset_fadeOut:244.25:0 lax_preset_jiggle:50:20">Mi Portafolio</button></a>
-                <a href="#contacto"><button class="lax lax_preset_fadeOut:244.25:0 lax_preset_jiggle:50:20">Comencemos</button></a>
+<body class="body">
+    <header>
+        <section class="section-logo">
+            <a href="index.html">
+                <img src="resources/ab-logo.png" alt="Logo">
+            </a>
+            <a href="index.html">
+                <h5>Angel Brand Solutions</h5>
+            </a>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#producto">Producto</a></li>
+                <li><a href="precios.html">Plan de Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="precios.html"><span class="empezar">Empezar</span></a></li>
+            </ul>
+            <div id="menu" class="hamburger-menu">
+                <div class="bar"></div>
             </div>
-            <div class="div-desliza lax lax_preset_fadeOut:244.25:0">
-                <span>Desliza</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#CFB53B" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>
-            </div>
-        </section> 
+        </nav>
+        
+        <section class="section-menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#producto">Producto</a></li>
+                <li><a href="precios.html">Plan de Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </section>
+    </header>
 
-        <section class="section-expertise">
-            <h2 class="lax lax_preset_fadeIn:150:0 lax_preset_hueRotate:977:360 lax_preset_jiggle:50:20" data-aos="fade-right">Lo que puedes esperar</h2>
-            <div class="expertise-container">
-                <div class="div-expertise lax lax_preset_fadeIn:150:0" data-aos="fade-up">
-                    <img src="resources/engranaje.png" alt="" class="engranaje-img2 lax lax_preset_fadeIn:244.25:0 lax_preset_spin:464:360">
-                    <div class="div-expertise-text">
-                        <h4>Diseño web personalizado</h4>
-                        <p>Obtén un sitio web único y diseñado a medida para tu negocio o proyecto. Trabajaré estrechamente contigo para entender tus necesidades y plasmar la identidad de tu marca en un diseño web excepcional que refleje tu visión.</p>
+    <main>
+        <section class="home-page">
+            <a href="#contacto" class="span-top"><span>Empezar</span></a>
+            <img src="resources/fondo-homepage.jpg" class="background-img" alt="">
+            <img src="resources/homepageVector.png" class="vector-img" alt="">
+            <div class="home-page-text">
+                <h1>Tu web perfecta, <br> hecha realidad</h1>
+                <p>Transformando tu visión en sitios web <br> poderosos y efectivos, hechos a medida.</p>
+                <a href="#contacto" class="span-oculto"><span>Empezar</span></a>
+                <div class="home-page-topics">
+                    <div class="topic">
+                        <img src="resources/candado.png" alt="">
+                        <p>Seguro y certificado</p>
                     </div>
-                </div>
-                <div class="expertise-container">
-                    <div class="div-expertise lax lax_preset_fadeIn:150:0" data-aos="fade-up">
-                        <img src="resources/engranaje.png" alt="" class="engranaje-img3 lax lax_preset_fadeIn:244.25:0 lax_preset_spin:464:360">
-                        <div class="div-expertise-text">
-                            <h4>Diseño web responsivo</h4>
-                            <p>Tu sitio web se adaptará perfectamente a diferentes dispositivos, desde computadoras de escritorio y portátiles hasta tablets y smartphones. Los visitantes disfrutarán de una experiencia de navegación fluida y atractiva, sin importar el dispositivo que utilicen, lo que aumentará la visibilidad y la accesibilidad de tu sitio web.</p>
-                        </div>
+                    <div class="topic">
+                        <img src="resources/rompecabezas.png" alt="">
+                        <p>Diseño responsivo</p>
                     </div>
-                </div>
-                <div class="expertise-container">
-                    <div class="div-expertise lax lax_preset_fadeIn:150:0" data-aos="fade-up">
-                        <img src="resources/engranaje.png" alt="" class="engranaje-img3 lax lax_preset_fadeIn:244.25:0 lax_preset_spin:464:360">
-                        <div class="div-expertise-text">
-                            <h4>Opciones web versátiles</h4>
-                            <p>Desde estáticos, ideales para proyectos con contenido fijo y presencia online simple, hasta dinámicos, perfectos para blogs y contenido actualizable, o tiendas en línea que impulsarán tu negocio y te permitirán vender productos y servicios de forma segura y efectiva.</p>
-                        </div>
+                    <div class="topic">
+                        <img src="resources/optimizacion-web.png" alt="">
+                        <p>Unico y optimizado</p>
                     </div>
+                    <a href="#contacto" class="span-bottom"><span>Empezar</span></a>
                 </div>
             </div>
         </section>
 
-        <section class="section-works">
-            <div class="div-works" data-aos="fade-up">
-                <div class="div-works-text">
-                    <h4>Sitio web estático</h4>
-                    <h5>Desde $719 MXN</h5>
-                    <ul>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Diseño Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Desarrollo Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Alojamiento Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Dominio</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Seguridad y certificado SSL</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>2 secciones</li>
-                    </ul>
-                </div>
-            </div>
-            </a>
-            <div class="div-works" data-aos="fade-up">
-                <div class="div-works-text">
-                    <h4>Sitio web dinámico</h4>
-                    <h5>Desde $829 MXN</h5>
-                    <ul>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Diseño Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Desarrollo Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Alojamiento Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Dominio</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Seguridad y certificado SSL</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Sistema de gestión de contenido (CMS)</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Integraciones y APIs</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>2 secciones</li>
-                    </ul>
-                </div>
-            </div>
-            </a>
-            <div class="div-works" data-aos="fade-up">
-                <div class="div-works-text">
-                    <h4>Tienda Online</h4>
-                    <h5>Desde $979 MXN</h5>
-                    <ul>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Diseño Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Desarrollo Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Alojamiento Web</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Dominio</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Seguridad y certificado SSL</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Plataforma de comercio electrónico</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Pasarelas de pago</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Carrito de compras</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>Procesamiento de pedidos y envíos</li>
-                    </ul>
-                </div>
-            </div>
-            </a>
+        <section class="section-future">
+            <h2>Construyendo el <br> futuro online <br> que imaginas</h2>
+            <p>Cada línea de código y cada diseño cuidadosamente elaborado se combinan para crear un sitio web que refleje tu visión a la perfección. Mi enfoque se basa en capturar la esencia de tu marca y convertirla en una experiencia en línea cautivadora para tus visitantes. No se trata solo de una presencia en la web, sino de una oportunidad para cautivar, interactuar y convertir. Te acompaño en cada paso del proceso, desde la conceptualización hasta la implementación, asegurando que tu sitio web no solo sea funcional, sino que también transmita la esencia de quién eres y lo que representas en el mundo digital en constante evolución.</p>
         </section>
 
-        <section class="section-meetme">
-                <h2 class="lax lax_preset_fadeIn:244.25:0 lax_preset_hueRotate:977:360 lax_preset_jiggle:50:20" data-aos="fade-right">¿Quién es Angel Brand?</h2>
-                <p data-aos="fade-up">Apasionado de crear experiencias web amigables y atractivas. Con habilidades en HTML, CSS y JavaScript, busca siempre estar actualizado con las últimas tendencias. Es un colaborador entusiasta y se enfoca en brindar la mejor experiencia al usuario. Siempre está listo para asumir nuevos desafíos y trabajar en proyectos emocionantes.</p>
-                <a href="https://portfoliobyangel.com" target="_blank" data-aos="fade-up"><button>Visita mi portafolio</button></a>
+        <section class="section-offer" id="producto">
+            <h2>Lo que te ofrezco</h2>
+            <p class="p-offer">Convierte tus ideas en un sitio web único y cautivador. Desde diseños impactantes hasta funcionalidades intuitivas, materializo tu visión para destacar en línea. Descubre una presencia digital que impulsa el crecimiento y la interacción en el mundo virtual.</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="resources/webdesign.png" alt="">
+                    <h3>Diseño web personalizado</h3>
+                    <p>Obtén un sitio web único y diseñado a medida para tu negocio o proyecto. Trabajaré estrechamente contigo para entender tus necesidades y plasmar la identidad de tu marca en un diseño web excepcional que refleje tu visión.</p>
+                </div>
+                <div class="card">
+                    <img src="resources/responsivedesign.png" alt="">
+                    <h3>Diseño web responsivo</h3>
+                    <p>Tu sitio web se adaptará perfectamente a diferentes dispositivos, desde computadoras de escritorio y portátiles hasta tablets y smartphones.</p>
+                </div>
+                <div class="card">
+                    <img src="resources/opcionesweb.png" alt="">
+                    <h3>Opciones web versátiles</h3>
+                    <p>Desde estáticos, ideales para proyectos con contenido fijo y presencia online simple, hasta dinámicos, perfectos para blogs y contenido actualizable, o tiendas en línea que impulsarán tu negocio y te permitirán vender productos y servicios de forma segura y efectiva.</p>
+                </div>
+                <div class="card">
+                    <img src="resources/rendimientoweb.png" alt="">
+                    <h3>Rendimiento veloz y confiable</h3>
+                    <p>Cada aspecto de tu sitio está optimizado para cargar de manera instantánea, brindando a tus visitantes una experiencia fluida y envolvente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-dream">
+            <img src="resources/emprendedoresVector.jpg" alt="">
+            <div>
+                <h2>Para emprendedores que sueñan en línea</h2>
+                <p>Si eres un emprendedor que busca establecer su presencia en la web, estaré a tu lado para transformar tus ideas en un sitio web impactante y funcional. Además, si eres un profesional independiente en busca de destacar con un portafolio en línea, puedo ayudarte a presentar tus logros y habilidades de manera cautivadora. Sea cual sea tu objetivo, estoy aquí para convertir tus metas en una realidad digital impresionante y eficaz.</p>
+            </div>
+        </section>
+
+        <section class="section-inspo">
+            <h2>¿No sabes por dónde empezar o necesitas inspiración?</h2>
+            <p>Explora una selección de enlaces a plantillas de sitios web de terceros, elegidas cuidadosamente para brindarte una variedad de opciones.</p>
+            <div class="link-item">
+                <p>Negocios en Línea: <a href="https://es.wix.com/website/templates/html/online-store" target="_blank">https://es.wix.com/website/templates/html/online-store <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg></a></p>
+            </div>
+            <div class="link-item">
+                <p>Portafolios Profesionales: <a href="https://es.wix.com/website/templates/html/portfolio-cv" target="_blank"> https://es.wix.com/website/templates/html/portfolio-cv <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg></a></p>
+            </div>
+            <div class="link-item">
+                <p>Bloggers y Creadores de Contenido: <a href="https://es.wix.com/website/templates/html/blog" target="_blank"> https://es.wix.com/website/templates/html/blog <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg></a></p>
+            </div>
+            <div class="link-item">
+                <p>Inspiración Creativa: <a href="https://webflow.com/free-website-templates" target="_blank"> https://webflow.com/free-website-templates <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg></a></p>
+            </div>
+        </section>
+        
+
+        <section class="section-prices">
+            <div>
+                <h2>Explora los precios</h2>
+                <p>Los precios de mis servicios pueden variar según el tipo de sitio web que necesitas, la cantidad de páginas que deseas incluir y las funciones específicas que requieres. Cada proyecto es único, y mi enfoque personalizado me permite ajustar los costos de acuerdo a tus metas y presupuesto.</p>
+                <a href="precios.html"><span>Ver más</span></a>
+            </div>
+            <div class="card-prices">
+                <h3 class="tag">Mas común</h3>
+                <div class="card-description">
+                    <h2>Sitio web estático</h2>
+                    <h4>Desde $719 MXN</h4>
+                    <p>Ideales para proyectos con contenido fijo y presencia online simple.</p>
+                    <a href="mailto:angel.brand.dev@gmail.com"><span>Empezar</span></a>
+                </div>
+                <div class="benefits">
+                    <ul>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg> Diseño Web</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg> Desarrollo Web</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg> Alojamiento Web</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg> Dominio</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg> Seguridad y certificado SSL</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <section class="section-contact" id="contacto">
-            <h2 class="lax lax_preset_fadeIn:244.25:0 lax_preset_hueRotate:977:360 lax_preset_jiggle:50:20" data-aos="fade-right">¿Por qué esperar?</h2>
-            <p data-aos="fade-up">¡Impulsemos tu presencia digital y dejemos encantados a tus clientes!</p>
-            <a href="mailto:angel.brand.dev@gmail.com" data-aos="fade-up"><button>Contáctame Ahora</button></a>
-        </section>
-
+            <h2>¡Impulsemos tu presencia digital y dejemos encantados a tus clientes!</h2>
+            <a href="mailto:angel.brand.dev@gmail.com"><span>Contactame ahora</span></a>
+            <img src="resources/footerVector.png" class="footer-img" alt="">
+        </section>        
     </main>
-
+    
     <footer>
-        <div>
-            <p>Angel Brand © 2023</p>
-        </div>
-        <div class="div-icons">
-            <a href="https://www.linkedin.com/in/angel-brand-9858b0279/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CFB53B" class="bi bi-linkedin" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg></a>
-
-            <a href="https://github.com/Angel069" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CFB53B" class="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
-
-            <a href="https://wa.me/5583412926" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CFB53B" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg></a>
-        </div>
+        <section class="footer">
+            <div class="footer-logo">
+                <a href="index.html"><img src="resources/ab-logo.png" alt=""></a>
+                <a href="index.html"><h5>Angel Brand Solutions</h5></a>
+            </div>
+            <div class="footer-redes">
+                <a href="https://www.linkedin.com/in/angel-brand-9858b0279/" target="_blank">LinkedIn</a>
+                <a href="https://portfoliobyangel.com" target="_blank">Mi Portafolio</a>
+                <a href="https://wa.me/5583412926" target="_blank">WhatsApp</a>
+            </div>
+        </section>
+        <section class="landing-footer">
+            <p>© 2023 Creado por Angel Brand</p>
+        </section>
     </footer>
+    
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script> 
 </body>
 </html>
