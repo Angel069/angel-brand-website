@@ -17,6 +17,51 @@
     .hamburger-menu {
         display: block;
     }
+
+    .figura1 {
+        left: 50%;
+        top: 60%;
+    }
+    
+    .figura2 {
+         left: 30%;
+         top: 44%;
+    }
+    
+    .figura3 {
+        right: 30%;
+        top: 10%;
+    }
+    
+    .figura4 {
+         right: 20%;
+         bottom: 30%;
+    }
+    
+    .figura5 {
+        right: 50%;
+        top: 50%;
+    }
+    
+    .figura6 {
+        left: 50%;
+        bottom: 5%;
+    }
+    
+    .figura7 {
+        left: 50%;
+        top: 10%;
+    }
+    
+    .figura8 {
+        left: 20%;
+        top: 30%;
+    }
+    
+    .paperplane {
+        width: 170px;
+        bottom: -100px;
+    }
     
     main section {
         padding-left: 2rem;

@@ -1,3 +1,28 @@
+AOS.init();
+
+window.onload = function () {
+    lax.init()
+
+    // Add a driver that we use to control our animations
+    lax.addDriver('scrollY', function () {
+      return window.scrollY
+    })
+
+    // Add animation bindings to elements
+    lax.addElements('.selector', {
+      scrollY: {
+        translateX: [
+          ["elInY", "elCenterY", "elOutY"],
+          [0, 'screenWidth/2', 'screenWidth'],
+        ]
+      }
+    })
+  }
+
+var scroll = new SmoothScroll('a[href*="#"]');
+
+
+
 (function () {
     var hamburgerMenu = document.querySelector('.hamburger-menu');
     var bars = document.querySelectorAll('.bar');
@@ -46,3 +71,23 @@
     });
 })();
 
+
+const controller = new ScrollMagic.Controller();
+  const plane = document.getElementById('movingPlane');
+
+  const screenWidth = window.innerWidth;
+  const imageWidth = plane.offsetWidth; // Ancho de la imagen
+
+  // Calcula la duración de la animación para evitar desbordamientos
+  const animationDuration = (screenWidth + imageWidth) / 1000;
+
+  const animation = gsap.timeline()
+    .to(plane, { x: screenWidth - imageWidth, duration: animationDuration, ease: 'power1.out' });
+
+  const scene = new ScrollMagic.Scene({
+    triggerElement: plane,
+    triggerHook: 'onEnter',
+    duration: '100%', // Puede ajustarse según tus necesidades
+  })
+    .setTween(animation)
+    .addTo(controller);

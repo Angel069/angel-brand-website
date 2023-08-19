@@ -4,6 +4,36 @@
         padding: 8rem;
     }
 
+    .figura3 {
+        right: 60%;
+        top: 20%;
+    }
+    
+    .figura4 {
+         right: 20%;
+         bottom: 20%;
+    }
+    
+    .figura5 {
+        right: 22%;
+        top: 7%;
+    }
+    
+    .figura6 {
+        left: 80%;
+        bottom: 10%;
+    }
+    
+    .figura7 {
+        left: 10%;
+        top: 30%;
+    }
+    
+    .figura8 {
+        left: 30%;
+        top: 60%;
+    }
+
     main section {
         padding-left: 8rem;
         padding-right: 8rem;
